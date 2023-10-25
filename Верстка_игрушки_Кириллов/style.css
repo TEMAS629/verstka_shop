@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f2f0 !important;
+    display: block;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    background-color: #f8f8f8 !important;
+    width: 1024px;
+    margin: 0 auto;
+    height: 2000px;
+}
+
+.nav {
+    background-color: #4f4f4f;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.menu:hover {
+    color: #da501a;
+}
+
+.search {
+    width: 230px !important;
+    height: 25px !important;
+}
+
+.phone_logo {
+    width: 90%;
+    height: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 226px;
+    height: 80px;
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.number {
+    display: flex;
+    justify-content: space-evenly;
+    width: 35%;
+}
+
+.text_num {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #4f4f4f;
+    border-bottom: 1px solid #4f4f4f;
+}
+
+.num {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #4f4f4f;
+}
+
+.first_num,
+.second_num {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.client {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.cart {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #4f4f4f;
+}
+
+.profile {
+    display: flex;
+    align-items: end;
+    cursor: pointer;
+}
+
+.profile_text {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #4f4f4f;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.profile_text:hover {
+    color: #da501a;
+    border-bottom: 1px solid #da501a;
+}
+
+.shop_price {
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.category {
+    width: 20%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.categor {
+    width: 100%;
+    padding: 3%;
+    height: 30px;
+    background-color: #f3f2f0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #4f4f4f;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.categor:hover {
+    text-align: center;
+    background-color: #da501a;
+    color: white;
+}
+
+.main_buy{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.variant {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right_side {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #010101;
+}
+
+.title_var {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #010101;
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.var1,
+.var2 {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #4f4f4f;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 20px;
+}
+
+.var1 {
+    background-color: #f3f2f0;
+}
+
+.price_var {
+    width: 100%;
+    display: flex;
+    justify-content: space-between
+}
+.price{
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #4f4f4f;
+}
+
+.btn_var {
+    color: #ececec !important;
+   background-color: #4f4f4f;
+    font-family: Arial, sans-serif !important;
+    font-size: 13px !important;
+    color: #4f4f4f;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px !important;
+    border: none;
+}
+
+.left_side {
+    width: 50%;
+}
+
+.sale{
+    
+    width: 100%;
+    height: 275px;
+    background-color: #fff !important;
+}
+.mainbanner{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title_sale{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #000;
+    cursor: pointer;
+}
+.product{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text_product{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #e27d55;
+    text-align: center;
+}
